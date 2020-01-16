@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/user/eleves/amasi2018/Localisation_CPP-master/Projet_localisation/include/DefineVariance.h
+eigen3/Eigen/Dense
+-
+math.h
+-
+RobotAndSensorDefinition.h
+/user/eleves/amasi2018/Localisation_CPP-master/Projet_localisation/include/RobotAndSensorDefinition.h
+
+/user/eleves/amasi2018/Localisation_CPP-master/Projet_localisation/include/RobotAndSensorDefinition.h
+math.h
+-
+
+/user/eleves/amasi2018/Localisation_CPP-master/Projet_localisation/src/Localisation.cpp
+eigen3/Eigen/Dense
+-
+eigen3/Eigen/LU
+-
+math.h
+-
+iostream
+-
+DefineVariance.h
+/user/eleves/amasi2018/Localisation_CPP-master/Projet_localisation/src/DefineVariance.h
+
+/user/eleves/amasi2018/Localisation_CPP-master/Projet_localisation/src/usefulFunctions.cpp
+eigen3/Eigen/Dense
+-
+math.h
+-
+iostream
+-
+
