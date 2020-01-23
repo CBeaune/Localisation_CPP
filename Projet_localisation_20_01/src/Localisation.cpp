@@ -128,7 +128,7 @@ int main(){
         //on calcule P la propagation d'erreur
         P = A*P*A.transpose() + B*Qbeta*B.transpose() + Qalpha ;
 
-        float mesures=1; // pour test a supprimer
+        int mesures=1; // pour test a supprimer
         if (mesures) {//si au moins un des deux capteurs detectent une ligne
 
             ///TODO : sensors
